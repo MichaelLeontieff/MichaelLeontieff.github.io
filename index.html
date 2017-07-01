@@ -1,231 +1,218 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Michael Leontieff - Programmer Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/bootstrap-paper.css" type="text/css">
+  <link rel="stylesheet" href="style/style.css" type="text/css">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/page-jquery.js"></script>
 
-		<!-- Header -->
-			<div id="header">
+  <title>Portfolio: Michael Leontieff</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <header>
+       <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container-fluid">
+           <!-- Brand and toggle get grouped for better mobile display -->
+           <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+             <a class="navbar-brand" href="#">Portfolio | <b>Michael Leontieff</b></a>
+           </div>
 
-				<div class="top">
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           <ul class="nav navbar-nav">
+             <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+             <li><a href="#">Summary</a></li>
+             <li><a href="#">Experience and Stack</a></li>
+             <li><a href="#">Contact</a></li>
+           </ul>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Michael Leontieff</h1>
-							<p>Computer Science Student, </br> Programmer</p>
-						</div>
+           <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://github.com/MichaelLeontieff">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/michaelleontieff/">LinkedIn</a></li>
+           </ul>
+         </div><!-- /.navbar-collapse -->
+       </div><!-- /.container-fluid -->
+       </nav>
+   </header>
+  </div>
+  <section id="summary">
+    <div class="banner">
+      <div id="typed-strings">
+        <p><strong>Hello! My name is Michael Leontieff.</strong></p>
+        <p>I am a motivated, independent yet team-focused student currently completing the final year of my Bachelor of Information Technology.<br></p>
+        <p>I am Majoring in Computer Science with Minors in Network Security and Mobile Application Development.<br></p>
+        <p>I’ve been heavily invested in the technology space from a young age, and have garnered practical experience both through my degree and various external projects and solutions which have broadened my skills in a field that is ever evolving.</p>
+      </div>
+    <span id="typed"></span>
+    </div>
+  </section>
+  <div class="main-content">
+    <section id="experience">
+      <h1 class="main-heading">Experience and Stack</h1>
+      <div class="container-fluid">
+        <!-- WEB DEVELOPMENT SECTION -->
+        <div class="fade">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="wrapper-image">
+                <img class="icon-image" src="images/cloud-computing.png" alt="cloud computing">
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="experience-group">
+                <h2>Web Development</h2>
+                <h4>Back-End</h4>
+                <ul>
+                  <li>NodeJS in conjunction with Express.js and template engines</li>
+                  <li>Ruby on Rails</li>
+                  <li>Meteor.js</li>
+                  <li>ASP.NET</li>
+                  <li>PHP</li>
+                  <li>Robust understanding and usage of Architecture patterns such as MVC</li>
+                  <li>Experience in both relational (SQL) and NoSQL (MongoDB) databases</li>
+                </ul>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
+                <h4>Front-End</h4>
+                <ul>
+                  <li>HTML5 and CSS3</li>
+                  <li>Experience using a myriad of JQuery libraries</li>
+                  <li>Experience in the various iterations of Javascript: ECMAScript, Typescript</li>
+                  <li>Design Experience using the Adobe Suite</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- NETWORKING SECTION -->
+        <div class="fade">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="wrapper-image">
+              <img class="icon-image" src="images/server.png" alt="server">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="experience-group">
+              <h2>Networking</h2>
+              <h4>Hardware and Software</h4>
+              <ul>
+                <li>Linux Networking and System Administration Experience</li>
+                <li>Experience configuring Cisco networking equipment</li>
+                <li>network design and configuration in IPv4 and IPv6</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- DESKTOP DEVELOPMENT -->
+        <div class="fade">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="wrapper-image">
+                <img class="icon-image" src="images/workplace.png" alt="desktop computer">
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="experience-group">
+                <h2>Desktop Development</h2>
+                <h4>Languages, Platforms and Paradigms</h4>
+                <ul>
+                  <li>Multi-Paradigm implementation experience using C# and F#</li>
+                  <li>Robust Object Orientated experience in Java and C#</li>
+                  <li>Experience with languages such as C++ and C</li>
+                  <li>Robust understanding and usage of Architecture patterns such as MVVM</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- MOBILE DEVELOPMENT -->
+      <div class="fade">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="wrapper-image">
+              <img class="icon-image" src="images/tap.png" alt="smartphone">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="experience-group">
+              <h2>Mobile Development</h2>
+              <h4>Cross Platform Development</h4>
+              <ul>
+                <li>Experience using MVVMCross in conjunction with Xamarin to implement cross-platform mobile applications</li>
 
-								Prologue's nav expects links in one of two formats:
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- TOOLING AND WORKFLOW -->
+      <div class="fade">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="wrapper-image">
+              <img class="icon-image" src="images/tap.png" alt="smartphone">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="experience-group">
+              <h2>Tooling and Workflow</h2>
+              <h4>Tools</h4>
+              <ul>
+                <li>Experience with Grunt task-runner</li>
+                <li>Robust experience with language transpilation</li>
+                <li>Solid foundation of source control with Git</li>
+                <li>Experience in Mac, Windows and Linux, particulary the Linux Shell</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+    <div class="row">
+    <section id="contact" class="col-sm-8 col-md-6 col-lg-6 col-centered">
+      <h1 class="main-heading">Contact</h1>
+      <form method="POST" action="https://formspree.io/portfolio.contact.form@gmail.com">
+        <div class="form-group">
+          <label for="exampleInputPassword1">Name</label>
+          <input type="text" class="form-control" id="nameInput" placeholder="Name">
+        </div>
 
-								1. Hash link (scrolls to a different section within the page)
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="Email">
+        </div>
 
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+        <textarea class="form-control" rows="3"></textarea>
 
-								2. Standard link (sends the user to another page/site)
+        <button type="submit" class="btn btn-default" value="send">Submit</button>
+      </form>
+    </section>
+    </div>
+</div>
 
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+<footer>
+  <p>Site designed by Michael Leontieff</p>
+  <div>Icons made by <a href="http://www.flaticon.com/authors/popcorns-arts" title="Icon Pond">Icon Pond</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+</footer>
 
-							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
+  <script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  crossorigin="anonymous"></script>
 
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
-							<!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
-							<li><a href="https://github.com/MichaelLeontieff" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="mailto:michael@leontieff.net" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-
-				</div>
-
-			</div>
-
-		<!-- Main -->
-			<div id="main">
-
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-
-							<header>
-								<h2 class="alt">Hi! I'm <strong>Michael Leontieff</strong>, an aspiring programmer currently studying Computer Science at QUT</h2>
-								<p></p>
-							</header>
-
-							<footer>
-								<a href="#portfolio" class="button scrolly">Portfolio and Experience</a>
-							</footer>
-
-						</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Portfolio and Experience</h2>
-							</header>
-
-							<p>Throughout my degree I've attained practical experience in the following Languages, Frameworks and Tools that encompass Web, Mobile
-								and Desktop Application Development</p>
-
-							<div class="row">
-								<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/xamarin.png" alt="" /></a>
-										<header>
-											<h3>Xamarin Mobile Development</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/java.png" alt="" /></a>
-										<header>
-											<h3>Java</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/c.png" alt="" /></a>
-										<header>
-											<h3>Programming Microprocessors in C</h3>
-										</header>
-									</article>
-								</div>
-								<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/nodejs.png" alt="" /></a>
-										<header>
-											<h3>Node JS with MongoDB and Express</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/php.png" alt="" /></a>
-										<header>
-											<h3>PHP</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/csharp.png" alt="" /></a>
-										<header>
-											<h3>C#</h3>
-										</header>
-									</article>
-								</div>
-								<div class="4u$ 12u$(mobile)">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/rails.png" alt="" /></a>
-										<header>
-											<h3>Ruby on Rails</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/jquery.gif" alt="" /></a>
-										<header>
-											<h3>JQuery</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/grunt.png" alt="" /></a>
-										<header>
-											<h3>Grunt</h3>
-										</header>
-									</article>
-								</div>
-							</div>
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-							<p>I am a motivated, independent yet team-focused student currently completing the final year of my Bachelor of Information Technology with a Major in Computer Science and Minors in Network Security and Mobile Application Development. I’ve been heavily invested in the technology space from a young age, and have garnered practical experience both through my degree and various external projects and solutions which have broadened my skills in a field that is ever evolving.
-</p>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>Feel free to drop me a message, or request my CV</p>
-
-							<form action="https://formspree.io/portfolio.contact.form@gmail.com"
-      					method="POST">
-								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="_replyto" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="12u$">
-										<input type="submit" value="Send" />
-									</div>
-								</div>
-							</form>
-
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>I'm a progammer, not an artist - design provided by &copy; <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
