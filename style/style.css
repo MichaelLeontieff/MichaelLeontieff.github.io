@@ -1,13 +1,13 @@
 .main-content {
-  width: 96%;
+  /*width: 96%;*/
   /*min-width: 600px;*/
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: 2%;
+  margin-right: 2%;*/
   margin-bottom: 50px;
 }
 
 .banner {
-  padding: 10px;
+  padding: 0px;
   margin-top: 64px;
   width: 100%;
   height: 400px;
@@ -83,20 +83,21 @@ footer {
   text-decoration: none;
 }
 
-footer a {
-  color: #e4e4e4;
+footer p {
+  padding-top: 10px;
 }
 
 /* Media Queries */
 
 @media screen and (max-width: 992px) {
   .icon-image {
+    width: 60%;
     float: none;
     margin-left: 0;
     margin-right: 0;
   }
   .wrapper-image {
-    width: 350px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -113,5 +114,16 @@ footer a {
   .typedtext {
     width: 100%;
     margin: 0;
+  }
+
+  .main-content {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    font-size: 1.5em;
   }
 }
